@@ -15,6 +15,7 @@ code | name | type | option
 code | 编码 | String | required:[true, 'code required'] & lowercase:true
 name | 名称 | String |  
 url | 地址 | String | 
+rank | 权重 | Int | 
 state | 状态 | Enum_State | 
 createdby | 创建人 | Ref__User | 
 createdby_name | 创建人 | String | 
