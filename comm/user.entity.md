@@ -21,6 +21,8 @@ city | 城市 | String |  |
 code | 编码 | String  | required:[true, 'code required'] & lowercase:true
 name | 昵称 | String |  |
 state | 状态 | Enum_State |
+password | 密码 | String
+reg_ip | 注册时IP | String
 createdby | 创建人 | Ref__User |
 createdby_name | 创建人 | String | 
 updatedby | 修改人 | Ref__User |
