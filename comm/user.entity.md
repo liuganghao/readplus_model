@@ -18,6 +18,7 @@ email | Email | String |
 avatar | 头像 | Image |  | 
 province | 省份 | String |  | 
 city | 城市 | String |  | 
+code | 编码 | String  | required:[true, 'code required'] & lowercase:true
 name | 昵称 | String |  |
 state | 状态 | Enum_State |
 createdby | 创建人 | Ref__User |
