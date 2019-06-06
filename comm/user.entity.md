@@ -21,8 +21,7 @@ province | 省份 | String |  |
 city | 城市 | String |  | 
 state | 状态 | Enum_State |
 password | 密码 | String | required:[true, 'password required']
-reg_ip | 注册时IP | String
-openid| 微信openid | String |
+openid | 微信openid | String |
 unionid | 微信唯一id | String |  |
 createdby | 创建人 | Ref__User |
 createdby_name | 创建人 | String | 
