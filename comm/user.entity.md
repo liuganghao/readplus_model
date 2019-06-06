@@ -14,6 +14,7 @@ code | name | type | option
 code | 编码 | String  | required:[true, 'code required'] & lowercase:true
 name | 昵称 | String |  |
 role | 角色 | List<String>
+server | 服务器 | List<String> 
 phone | 手机号 | String |  |
 email | Email | String |
 avatar | 头像 | Image |  | 
