@@ -13,7 +13,7 @@ propertylist]:
 code | name | type | option
 --- | --- | --- | ---
 name | 名称 | String |  
-role | 角色 | String | required:[true, 'role must be required']
+role | 角色 | List<String> | 
 grouplist | 图标项 | List<group> |  
 state | 状态 | Enum_State | 
 createdby | 创建人 | Ref__User | 
